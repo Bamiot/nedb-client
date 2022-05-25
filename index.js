@@ -15,6 +15,7 @@ module.exports = class NedbClient {
     this.defaultAutoLoad = defaultAutoLoad
     this.defaultPersistent = defaultPersistent
     this.tables = tables
+    this.db = {}
 
     if (!Array.isArray(tables))
       Object.keys(tables).forEach(this._createDataStore)
@@ -22,7 +23,7 @@ module.exports = class NedbClient {
   }
 
   _createDataStore = (tableName) => {
-    this[tableName] = new DataStore({
+    this.db[tableName] = new DataStore({
       filename:
         this.tables[tableName]?.persistent || this.defaultPersistent
           ? `${this.location}/${tableName}${

@@ -68,5 +68,5 @@ module.exports = dbClient
 ```js
 const dbClient = require('./[client-file]')
 
-dbClient.user.insert({ name: 'bamiot' })
+dbClient.db.user.insert({ name: 'bamiot' })
 ```

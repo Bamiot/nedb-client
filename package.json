@@ -1,6 +1,6 @@
 {
   "name": "@bamiot/nedb-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a client to call many nadb tables.",
   "main": "index.js",
   "scripts": {
