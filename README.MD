@@ -4,7 +4,7 @@ a very simple client for the [nedb](https://github.com/louischatriot/nedb#readme
 
 #### IMPORTANT
 
-**[nedb](https://github.com/louischatriot/nedb#readme) package has been replaced with a fork of the original package, [@seald-io/nedb](https://github.com/seald/nedb) to solve some vulnerability issues originating from `nedb`!**
+**[nedb](https://github.com/louischatriot/nedb#readme) package has been replaced with a fork of the original package, [nedb-promises](https://github.com/bajankristof/nedb-promises) to solve some vulnerability issues originating from `nedb` and use promises**
 
 ## Installation
 
