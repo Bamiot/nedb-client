@@ -9,7 +9,7 @@ a very simple client for the [nedb](https://github.com/louischatriot/nedb#readme
 ## Installation
 
 ```sh
-npm install @bamiot/nedb-client
+npm install ---save @bamiot/nedb-client
 ```
 
 ## Usage
